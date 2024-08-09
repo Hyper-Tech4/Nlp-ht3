@@ -33,7 +33,7 @@ Pretrained embedding modeli olan [Word2Vec](kod/word2vec.ipynb) ile eğittiğimi
 <img width="926" alt="Screen Shot 2024-08-09 at 13 03 39" src="https://github.com/user-attachments/assets/b83e41e1-bd80-47cf-81ff-8df56d35deba">
 
 
-Modelimizi seçtiğimiz karakterlerin en sık ([frekans](kod/karakter_diyalog_kelime_frekans.ipynb)) kullandığı kelimeleri verisetinden çıkararak cümle üretme [accuracy değerinin arttırıldığı model](kod/cumle_uretme_gelistirilmis.ipynb) .
+Modelimizi seçtiğimiz karakterlerin en sık ([frekans](kod/karakter_diyalog_kelime_frekans.ipynb)) kullandığı kelimeleri verisetinden çıkararak cümle üretmedeki [accuracy değerinin arttırıldığı model](kod/cumle_uretme_gelistirilmis.ipynb) .
 
 
 ### YARDIMCI KODLAR
