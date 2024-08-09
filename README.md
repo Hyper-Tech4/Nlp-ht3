@@ -14,7 +14,7 @@ eğittiğimiz model. Aşağıda modelin accuracy değerleri çıktısı verilmi�
   <img width="1008" alt="Screen Shot 2024-08-09 at 12 52 06" src="https://github.com/user-attachments/assets/aa460ad8-7166-4700-b77a-262db47d1059">
 
 
-  Modelin belirli [karaktere göre cümle üretimi ve tahmini](kod/karaktere-gore-cumle-uretimi-ve-cumle-tahmini.ipynb) yapıldı.  Aşağıda modelin accuracy değerleri çıktısı verilmiştir
+  Modelin belirli [karaktere göre cümle üretimi ve tahmini](kod/karaktere_gore_cumle_uretimi_ve_cumle_tahmini.ipynb) yapıldı.  Aşağıda modelin accuracy değerleri çıktısı verilmiştir
 
   <img width="801" alt="Screen Shot 2024-08-09 at 13 03 28" src="https://github.com/user-attachments/assets/9da20495-0fd3-4cb2-bca0-bbb9313a20df">
 
