@@ -7,16 +7,22 @@
 ## B.MODEL
 
   "Friends" dizisindeki karakterlerin diyaloglarını tahmin etmek için gömülü embedding kullanarak modeli [karakter tahminini](kod/karakter_tahmini.ipynb ) gerçekledik. Aşağıda modelin accuracy değerleri çıktısı verilmiştir.
+
+  
   <img width="1004" alt="Screen Shot 2024-08-09 at 12 48 48" src="https://github.com/user-attachments/assets/e9402112-7a2c-48d5-bdab-e3aeba9456bb">
 
 Pretrained embedding modeli olan [Word2Vec](kod/word2vec.ipynb) ile
 eğittiğimiz model. Aşağıda modelin accuracy değerleri çıktısı verilmiştir.
+
+
   <img width="1008" alt="Screen Shot 2024-08-09 at 12 52 06" src="https://github.com/user-attachments/assets/aa460ad8-7166-4700-b77a-262db47d1059">
 
 
   Modelin belirli [karaktere göre cümle üretimi ve tahmini](kod/karaktere_gore_cumle_uretimi_ve_cumle_tahmini.ipynb) yapıldı.  Aşağıda modelin accuracy değerleri çıktısı verilmiştir
 
+
   <img width="801" alt="Screen Shot 2024-08-09 at 13 03 28" src="https://github.com/user-attachments/assets/9da20495-0fd3-4cb2-bca0-bbb9313a20df">
+
 
 <img width="706" alt="Screen Shot 2024-08-09 at 13 05 23" src="https://github.com/user-attachments/assets/2e843773-740b-4ae8-af63-7f6cc7b0056d">
 
@@ -24,7 +30,7 @@ eğittiğimiz model. Aşağıda modelin accuracy değerleri çıktısı verilmi�
 <img width="926" alt="Screen Shot 2024-08-09 at 13 03 39" src="https://github.com/user-attachments/assets/b83e41e1-bd80-47cf-81ff-8df56d35deba">
 
 
-Modelimizi seçtiğimiz karakterlerin en sık ([frekans](kod/karakter_diyalog_kelime_frekans.ipynb)) kullandığı kelimeleri verisetinden çıkararak cümle üretme [accuracy değerinin arttırıldığı model](kod/cumle_uretme_gelistirilmis.ipynb).
+Modelimizi seçtiğimiz karakterlerin en sık ([frekans](kod/karakter_diyalog_kelime_frekans.ipynb)) kullandığı kelimeleri verisetinden çıkararak cümle üretme [accuracy değerinin arttırıldığı model](kod/cumle_uretme_gelistirilmis.ipynb) .
 
 
 ### YARDIMCI KODLAR
