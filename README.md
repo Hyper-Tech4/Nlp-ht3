@@ -17,6 +17,10 @@ eğittiğimiz model. Aşağıda modelin accuracy değerleri çıktısı verilmi�
 
   <img width="1008" alt="Screen Shot 2024-08-09 at 12 52 06" src="https://github.com/user-attachments/assets/aa460ad8-7166-4700-b77a-262db47d1059">
 
+(Kendi Word2Vec modelimizi geliştirirken kullandığımız kaynak dosya: https://github.com/akoksal/Turkish-Word2Vec)
+
+
+
 
   Modelin belirli [karaktere göre cümle üretimi ve tahmini](kod/karaktere_gore_cumle_uretimi_ve_cumle_tahmini.ipynb) yapıldı.  Aşağıda modelin accuracy değerleri çıktısı verilmiştir
 
