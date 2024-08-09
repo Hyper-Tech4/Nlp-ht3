@@ -2,17 +2,16 @@
 
   Friends veri setinin kaynak linki: https://edersoncorbari.github.io/friends/
 
-  Kaynağımızdaki 10 sezonluk (236 bölüm) veri için ayrı birer text dosyası oluşturuldu. Bu dosyalar translate aracılığıyla türkçeye çevirildi. Text dosyalarını diyalog dışı cümlelerden ayılması, tek bir merged_friends.txt dosyası haline getirilmesi ve bu dosyanın friends.csv dosyası haline getirilebilmesi için [veri seti hazırlık](kod/veriseti_hazırlık.ipynb) aşamaları yapıldı.
+  Kaynağımızdaki 10 sezonluk (236 bölüm) veri için ayrı birer text dosyası oluşturuldu. Bu dosyalar translate aracılığıyla türkçeye çevirildi. Text dosyalarını diyalog dışı cümlelerden ayrılması, [tek bir dosya](veriseti/merged_friends.txt) haline getirilmesi ve bu dosyanın [csv formatına](veriseti/friends.csv) dönüştürülebilmesi için [veri seti hazırlık](kod/veriseti_hazırlık.ipynb) aşamaları yapıldı.
 
 ## B.MODEL
 
-  "Friends" dizisindeki karakterlerin diyaloglarını tahmin etmek için gömülü embedding kullanarak modeli [karakter tahminini](kod/karakter_tahmini.ipynb ) gerçekledik. Aşağıda modelin accuracy değerleri çıktısı verilmiştir.
+  "Friends" dizisindeki karakterlerin diyaloglarını tahmin etmek için gömülü embedding kullanarak modelin [karakter tahminini](kod/karakter_tahmini.ipynb ) gerçekledik. Aşağıda modelin accuracy değerleri çıktısı verilmiştir.
 
   
   <img width="1004" alt="Screen Shot 2024-08-09 at 12 48 48" src="https://github.com/user-attachments/assets/e9402112-7a2c-48d5-bdab-e3aeba9456bb">
 
-Pretrained embedding modeli olan [Word2Vec](kod/word2vec.ipynb) ile
-eğittiğimiz model. Aşağıda modelin accuracy değerleri çıktısı verilmiştir.
+Pretrained embedding modeli olan [Word2Vec](kod/word2vec.ipynb) ile eğittiğimiz model. Aşağıda modelin accuracy değerleri çıktısı verilmiştir.
 
 
   <img width="1008" alt="Screen Shot 2024-08-09 at 12 52 06" src="https://github.com/user-attachments/assets/aa460ad8-7166-4700-b77a-262db47d1059">
@@ -22,7 +21,7 @@ eğittiğimiz model. Aşağıda modelin accuracy değerleri çıktısı verilmi�
 
 
 
-  Modelin belirli [karaktere göre cümle üretimi ve tahmini](kod/karaktere_gore_cumle_uretimi_ve_cumle_tahmini.ipynb) yapıldı.  Aşağıda modelin accuracy değerleri çıktısı verilmiştir
+  Modelin belirli [karaktere göre cümle üretimi ve tahmini](kod/karaktere_gore_cumle_uretimi_ve_cumle_tahmini.ipynb) yapıldı. Aşağıda modelin accuracy değerleri çıktısı verilmiştir
 
 
   <img width="801" alt="Screen Shot 2024-08-09 at 13 03 28" src="https://github.com/user-attachments/assets/9da20495-0fd3-4cb2-bca0-bbb9313a20df">
