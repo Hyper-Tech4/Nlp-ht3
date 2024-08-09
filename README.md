@@ -2,7 +2,7 @@
 
   Friends veri setinin kaynak linki: https://edersoncorbari.github.io/friends/
 
-  Kaynaktan her sezon için ayrı bir text dosyası oluşturuldu. Bu dosyalar translate aracılığıyla türkçeye çevirildi. Text dosyalarını diyalog dışı cümlelerden ayılması, tek bir merged_friends.txt dosyası haline getirilmesi ve bu dosyanın friends.csv dosyası haline getirilebilmesi için veriseti_hazırlık.ipynb kodu kullanıldı.
+  Kaynağımızdaki 10 sezonluk (236 bölüm) veri için ayrı birer text dosyası oluşturuldu. Bu dosyalar translate aracılığıyla türkçeye çevirildi. Text dosyalarını diyalog dışı cümlelerden ayılması, tek bir merged_friends.txt dosyası haline getirilmesi ve bu dosyanın friends.csv dosyası haline getirilebilmesi için veriseti_hazırlık.ipynb kodu kullanıldı.
 
 ## B.MODEL
 
